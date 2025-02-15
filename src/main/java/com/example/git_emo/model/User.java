@@ -1,4 +1,4 @@
-package model;
+package com.example.git_emo.model;
 
 public class User {
     private int userId;
