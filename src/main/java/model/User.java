@@ -3,6 +3,16 @@ package model;
 public class User {
     private int userId;
     private String name;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    private String email;
     private int password;
 
     public int getUserId() {
