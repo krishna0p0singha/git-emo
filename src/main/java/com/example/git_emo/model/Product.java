@@ -4,7 +4,7 @@ public class Product {
     private int productId;
     private String productName;
     private int productPrice;
-
+    private int productQuantity;
     public int getProductId() {
         return productId;
     }
@@ -27,5 +27,13 @@ public class Product {
 
     public void setProductPrice(int productPrice) {
         this.productPrice = productPrice;
+    }
+
+    public int getProductQuantity() {
+        return productQuantity;
+    }
+
+    public void setProductQuantity(int productQuantity) {
+        this.productQuantity = productQuantity;
     }
 }
